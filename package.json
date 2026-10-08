@@ -1,0 +1,27 @@
+{
+  "name": "greenmark",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for Green Mark Natural Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "automation",
+    "greenmark"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
